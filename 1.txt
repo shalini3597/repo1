@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MY PORTFOLIO</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: powderblue;;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+</style>
+</head>
+
+
+
+<body >
+
+<header>
+<h1>My Portfolio</h1>
+</header>
+
+<section>
+  
+  
+<article>
+<h1>Shalini</h1>
+<p>Address:jawhar nagar camp palwal</p>
+<p>Email id: shalinisindhani3597@gmail.com</p>
+
+  </article>
+
+   <article>
+ <h1>Career Objective</h1>
+     <p>my carrer objective is to be a Cyber Security Analyst.</p>  
+</article>
+    
+   
+   <article>
+  <h1>Education Qualification</h1>
+     <table>
+  <tr>
+    <th>Academic Qualification</th>
+    <th>Institution name</th>
+    <th>Year of passing </th>
+    <th>CGPA</th>
+  </tr>
+  <tr>
+    <td>B.tech(CS with specialization in cyber security)</td>
+    <td>Manav rachna</td>
+    <td>2022</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Digital marketing course</td>
+    <td>Digiperform</td>
+    <td>2019</td>
+    <td>Qualified</td>
+  </tr>
+  <tr>
+    <td>12th</td>
+    <td>Tagore public school</td>
+    <td>2018</td>
+    <td>6.5</td>
+  </tr>
+  <tr>
+    <td>10th</td>
+    <td>Tagore public school</td>
+    <td>2016</td>
+    <td>7.6</td>
+  </tr>
+  
+</table>
+</article>
+
+<article>
+<h1>Skills</h1>
+<p>i)good communication.</p> 
+<p>ii)love to draw.</p>
+</p>iii)Enjoy learning new things.</p>
+</article>
+
+<article>
+<h1>Details</h1>
+<p>Father name:  Dalip Kumar Sindhani</p>
+<p>Date of Birth:  16 dec 1999    </p>
+<p>Contact No. :  +91 7027123636   </p>
+<p>Hobbies:         Drawing          </p>
+<p>Language:       Hindi, English, basic spanish </p>
+</article>
+</section>
+
+<footer>
+  <p>Thank you </p>
+</footer>
+
+
+</body>
+</html>
